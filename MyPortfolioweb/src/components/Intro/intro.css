@@ -1,0 +1,43 @@
+.intro-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 69rem;
+    height: 42rem;
+    border-radius: 10px;
+}
+
+.typing-text {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.cursor {
+    display: inline-block;
+    background: #fff;
+    width: 5px;
+    height: 1.2em;
+    animation: blink 0.6s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        background: transparent;
+    }
+}

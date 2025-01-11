@@ -1,0 +1,95 @@
+.main-skills-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 0rem;
+}
+
+.skills-heading p {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.hr-skills {
+    position: relative;
+    right: 29.4rem;
+}
+
+.hr-skills hr {
+    width: 110px;
+    height: 1px;
+    color: blue;
+    background:blue;
+}
+
+.skills {
+    margin: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    height: 10px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: #4c53af;
+    transition: width 1s ease-in-out;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+#html {
+    width: 100%;
+}
+
+#css {
+    width: 90%
+}
+
+#python {
+    width: 90%;
+}
+
+#javascript {
+    width: 70%;
+}
+
+#node {
+    width: 90%;
+}
+
+#react {
+    width: 80%;
+}
+
+.skill span {
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.skill-progress {
+    display: flex;
+}
+
+.skills {
+    width: 100%;
+    margin-left: 0px;
+}

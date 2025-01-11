@@ -1,0 +1,25 @@
+.Hero-container {
+    display: flex;
+    justify-content: inherit;
+}
+
+.right-section {
+    position: absolute;
+    left: 19%;
+}
+
+.hero-resume {
+    position: absolute;
+}
+
+.hero-services {
+    display: flex;
+    position: relative;
+    top: 64rem;
+    flex-direction: column;
+}
+
+.hero-contact {
+    position: relative;
+    top: 66rem;
+}

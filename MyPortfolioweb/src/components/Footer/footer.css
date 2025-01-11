@@ -1,0 +1,24 @@
+.Footer {
+    position: relative;
+    top: 69rem;
+    height: 7rem;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+
+.Footer {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100px; /* Adjust height as needed */
+    background-color: #f1f1f1; /* Optional: Add a background color */
+  }
+  
+  .Footer p {
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Ensure text alignment in case of multi-line text */
+    font-size: 16px; /* Adjust font size as needed */
+    color: #333; /* Optional: Text color */
+  }
+  

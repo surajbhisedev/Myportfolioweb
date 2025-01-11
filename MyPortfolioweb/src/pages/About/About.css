@@ -1,0 +1,123 @@
+/* Basic styling for the About page */
+.about-container {
+  padding: 20px;
+  /* text-align: center; */
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  width: 66rem;
+  margin-top: 6rem;
+}
+
+.about-container h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* .about-container p {
+    color: #34495e;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+  }
+   */
+.a1 {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.b1 {
+  justify-content: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+
+}
+.hr {
+  position: relative;
+  right: 29.5rem;
+}
+.hr hr {
+  width: 110px;
+  height: 1px;
+  color: blue;
+  background: blue;
+ 
+}
+
+.introduction p {
+  text-align: justify;
+  color: black;
+  font-weight: bolder;
+}
+
+.information {
+  display: flex;
+}
+
+.information img {
+  width: 200px;
+  height: 300px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.heading-1 {
+  margin: 0px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.para-1 {
+  font-weight: bolder;
+}
+
+.list {
+  list-style: none;
+  text-align: start;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  font-weight: bolder;
+  margin-left: 7px;
+  margin-top: 0px;
+}
+
+.team-heading {
+  color: #007BFF;
+  font-weight: bolder;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.site-info {
+  display: flex;
+}
+
+.inf {
+  display: flex;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.inf-1 {
+  margin-left: 100px;
+  margin-top: 5px;
+}
+
+.inf-2 {
+  line-height: 30px;
+}

@@ -1,0 +1,134 @@
+.iframe-container iframe {
+    width: 25rem;
+    height: 14rem;
+}
+
+.iframe-container {
+    margin-top: 2px;
+}
+
+.contact-info-1 {
+    display: flex;
+}
+
+span h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+span p {
+    margin-top: 0px;
+}
+
+.contact-indo-1-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.circle svg {
+    font-size: 27px;
+    background: #ccf2eddb;
+}
+
+.contact-info-1:hover .circle {
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    /* Initial border is transparent */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.bgset {
+    background-color: #ccf2eddb;
+}
+
+.contact-container-last {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    /* right: 9.5rem; */
+}
+
+.first-2-inputs {
+    display: flex;
+    margin-top: 15px;
+}
+
+.first-2-inputs input {
+    width: 16rem;
+    height: 2rem;
+}
+
+.first-2-inputs label {
+    position: relative;
+    bottom: 1.8rem;
+    left: 3.2rem;
+}
+
+.subject label {
+    position: relative;
+    bottom: 1.5rem;
+    left: 4rem;
+}
+
+.subject {
+    margin-top: 55px;
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+    position: relative;
+    right: 19px;
+}
+
+.subject input {
+    width: 35.6rem;
+}
+
+.message label {
+    position: relative;
+    bottom: 1.5rem;
+    left: 4.5rem;
+}
+
+.message {
+    display: flex;
+    margin-top: 32px;
+    position: relative;
+    right: 1.2rem;
+}
+
+.message input {
+    height: 15rem;
+    width: 36rem;
+}
+
+.message-button {
+    width: 5px;
+}
+
+.message-button button {
+    width: 10rem;
+    border-radius: 10px;
+    height: 2.5rem;
+    position: relative;
+    left: 16rem;
+    background-color: #0179aa;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
